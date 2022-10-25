@@ -34,6 +34,7 @@ class BankAccount():
         Parameter: none
         Returns: Current balance.
         """
+        return self.balance
 
     def add_interest(self):
         """
