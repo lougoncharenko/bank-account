@@ -56,3 +56,10 @@ class BankAccount():
         print(f'{self.full_name}\n {self.account_number}\n {self.balance}')
       
 #Define 3 different bank account examples using the BankAccount() object.
+John_account = BankAccount('John Thomas', 10000001, 0)
+John_account.deposit(700)
+John_account.print_statement()
+John_account.deposit(800)
+John_account.print_statement()
+John_account.withdraw(100)
+John_account.print_statement()
