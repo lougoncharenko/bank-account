@@ -20,7 +20,13 @@ class BankAccount():
         Parameter: Amount
         Returns: A message with amouitn withdrawn and new balance
         """
-        #If the user tries to withdraw an amount that is greater than the current balance, print ”Insufficient funds.” and charge them with an overdraft fee of $10
+        self.balance = self.balance - amount
+        if self.balance < 0:
+            print('Insufficient funds.')
+            self.balance = self.balance - 10
+            return self.balance
+        else:
+            return self.balance
 
     def get_balance(self):
         """
