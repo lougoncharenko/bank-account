@@ -53,5 +53,6 @@ class BankAccount():
         Parameter: Amount
         Returns: A message with account_name, account_number and balance.
         """
+        print(f'{self.full_name}\n {self.account_number}\n {self.balance}')
       
 #Define 3 different bank account examples using the BankAccount() object.
