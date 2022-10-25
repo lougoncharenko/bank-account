@@ -11,6 +11,8 @@ class BankAccount():
         Parameter: Amount
         Returns: A message with new balance.
         """
+        self.balance = self.balance + amount
+        return self.balance
     
     def withdraw(self, amount):
         """
@@ -41,9 +43,4 @@ class BankAccount():
         Returns: A message with account_name, account_number and balance.
         """
       
-
-
-
 #Define 3 different bank account examples using the BankAccount() object.
-
-
