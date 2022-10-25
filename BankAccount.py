@@ -42,6 +42,10 @@ class BankAccount():
         Parameter: none
         Returns: current balance with interest
         """
+        interest = self.balance * 0.00083
+        self.balance = self.balance + interest
+        return self.balance
+
     
     def print_statement(self):
         """
