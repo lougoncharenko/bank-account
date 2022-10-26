@@ -7,6 +7,9 @@ Bank-Account is a project that I created to stimulate a bank account using objec
 <br>
 <br>
 
+## Usage
+run  `Python3 BankAccount.py`
+
 
 ## Why did you Build this project?
 I built this project for my ACS 1111 class to reinforce my understanding of Object-Oriented Programming. In the project, I create a class called Bank Account with the attributes: full name, account number and balance and methods that withdraw, deposit, get balance, add interest and print out a bank statement. I created three instances of the class Bank Account and ran all of the methods on each new instance. 
