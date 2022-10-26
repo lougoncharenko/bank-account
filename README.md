@@ -14,11 +14,11 @@ I built this project for my ACS 1111 class to reinforce my understanding of Obje
 
 
 ## What did You learn?
--How to initiate attributes
--How to create a class
--How to call a method.
--How to create instances.
--the importance of keywordf "self"
+- How to initiate attributes
+- How to create a class
+- How to call a method.
+- How to create instances.
+- the importance of keywordf "self"
 <br>
 <br>
 
