@@ -22,7 +22,7 @@ class BankAccount():
         Returns: A message with new balance.
         """
         self.balance = self.balance + amount
-        print(f'Amount deposited: ${amount} new balance: ${self.balance}')
+        print(f'Amount deposited: ${amount} new balance: ${self.balance} \n')
         return self.balance
     
     def withdraw(self, amount):
@@ -37,7 +37,7 @@ class BankAccount():
             self.balance = self.balance - 10
             return self.balance
         else:
-            print(f'Amount withdrawn: ${amount} new balance: ${self.balance}')
+            print(f'Amount withdrawn: ${amount} new balance: ${self.balance} \n')
             return self.balance
 
     def get_balance(self):
