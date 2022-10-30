@@ -35,6 +35,7 @@ class BankAccount():
             self.balance = self.balance - 10
             return self.balance
         else:
+            print(f'“Amount withdrawn: ${amount} new balance: ${self.balance}”')
             return self.balance
 
     def get_balance(self):
@@ -68,7 +69,8 @@ class BankAccount():
 John_account = BankAccount('John Thomas')
 John_account.deposit(700)
 John_account.print_statement()
-# John_account.deposit(800)
+John_account.deposit(800)
 # John_account.print_statement()
-# John_account.withdraw(100)
-# John_account.print_statement()
+John_account.withdraw(100)
+John_account.withdraw(1500)
+John_account.print_statement()
