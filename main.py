@@ -13,3 +13,15 @@ John_account.print_statement()
 ################  Mitchell EXAMPLE ################################
 Mitchell_account = BankAccount('Mitchell Anderson', account_number = 13141592)
 Mitchell_account.print_statement()
+Mitchell_account.deposit(400000)
+Mitchell_account.print_statement()
+Mitchell_account.add_interest()
+Mitchell_account.print_statement()
+Mitchell_account.withdraw(150)
+Mitchell_account.print_statement()
+
+
+################  Cindy EXAMPLE ################################
+Cindy_account = BankAccount('Cindy Fuller')
+
+

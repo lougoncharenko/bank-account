@@ -10,10 +10,10 @@ def generate_account_number(n):
 random_account_number = generate_account_number(8)
 
 class BankAccount():
-    def __init__(self, full_name, account_number = random_account_number):
+    def __init__(self, full_name, account_number = random_account_number, balance = 0):
         self.full_name = full_name
         self.account_number = account_number
-        self.balance = 0
+        self.balance = balance
 
     def deposit(self, amount):
         """
