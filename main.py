@@ -22,6 +22,10 @@ Mitchell_account.print_statement()
 
 
 ################  Cindy EXAMPLE ################################
-Cindy_account = BankAccount('Cindy Fuller')
+Cindy_account = BankAccount('Cindy Fuller', balance = 500)
+Cindy_account.get_balance()
+Cindy_account.add_interest()
+Cindy_account.print_statement()
+Cindy_account.deposit(1000)
 
 
