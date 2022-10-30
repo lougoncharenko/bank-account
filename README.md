@@ -3,12 +3,12 @@
 <br>
 
 ## About The Project
-Bank-Account is a project that I created to stimulate a bank account using object-oriented concepts.
+Bank-Account is a project that I created to stimulate a bank account using object-oriented concepts. 
 <br>
 <br>
 
 ## Usage
-run  `Python3 BankAccount.py`
+run  `Python3 Main.py`
 
 
 ## Why did you Build this project?
@@ -22,6 +22,8 @@ I built this project for my ACS 1111 class to reinforce my understanding of Obje
 - How to call a method.
 - How to create instances.
 - the importance of keywordf "self"
+- How to import classes
+- Importance of code organization
 <br>
 <br>
 
