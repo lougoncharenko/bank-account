@@ -20,6 +20,7 @@ class BankAccount():
         Returns: A message with new balance.
         """
         self.balance = self.balance + amount
+        print(f'“Amount deposited: ${amount} new balance: ${self.balance}”')
         return self.balance
     
     def withdraw(self, amount):
@@ -67,7 +68,7 @@ class BankAccount():
 John_account = BankAccount('John Thomas')
 John_account.deposit(700)
 John_account.print_statement()
-John_account.deposit(800)
-John_account.print_statement()
-John_account.withdraw(100)
-John_account.print_statement()
+# John_account.deposit(800)
+# John_account.print_statement()
+# John_account.withdraw(100)
+# John_account.print_statement()
