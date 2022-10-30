@@ -9,7 +9,18 @@ Bank-Account is a project that I created to stimulate a bank account using objec
 
 ## Usage
 run  `Python3 Main.py`
+<br>
+<br>
 
+## File Structure:
+ ### Main.py:
+- This file houses the run_bank_application function (that is part of the stretch challenge). This function prompts user for a full name, account number and a starting balance. User then is given 4 options: 1- to print statement, 2- to deposit, 3- to withdraw and 4- to exit the program.
+### BankAccount.py
+- This file houses the BankAccount class that takes in three attributes and has methods that return a balance, deposit and withdraw money, add interest and print a bank statement.
+### testing_instances.py
+- This file completes the assignment requirements of creating three instances of the BankAccount class and calling a couple different methods on the new instances.
+
+<br> 
 
 ## Why did you Build this project?
 I built this project for my ACS 1111 class to reinforce my understanding of Object-Oriented Programming. In the project, I create a class called Bank Account with the attributes: full name, account number and balance and methods that withdraw, deposit, get balance, add interest and print out a bank statement. I created three instances of the class Bank Account and ran all of the methods on each new instance. 
